@@ -1,6 +1,7 @@
 .profile-list {
     margin: 15px auto 0;
     width: 600px;    
+    max-width: calc(100% - 20px);
 }
 
 .load {
