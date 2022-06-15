@@ -1,0 +1,60 @@
+.profile-box {    
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+
+    border-radius: 6px;
+    border: 1px solid #f3f3f3;
+
+    color: #f3f3f3;
+
+    animation: fadeIn ease-in-out 1s;
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+.profile-box:hover {
+    box-shadow: rgba(255, 255, 255, .1) 0px 0px 15px 15px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.user-profile {
+    flex: 1;
+    max-width: 100px;
+    max-height: 100px;
+
+    border-radius: 50%;
+}
+
+.content {
+    flex: auto;
+    margin-left: 15px;
+}
+
+.content h3 {
+    font-weight: lighter;
+}
+
+.content span {
+    font-weight: bold;
+}
+
+.right-align {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.bio {
+    margin-top: 5px;
+}
